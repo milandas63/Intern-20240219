@@ -1,0 +1,33 @@
+
+1. Jyoti Prakash Das        7853884916      dasjyotiprakash112@gmail.com    dasjyoti1           PJ
+2. Debasish Rath            8280575539      debasishrath2001@gmail.com      debasish548769      KIIT
+3. Debashis Mohapatra       9337675275      debashismohapatra39@gmail.com   debashis-45         KIIT
+4. Soumya Ranjan Mishra     9348196113      soumyamishra566@gmail.com       soumya32145         GIFT
+
++----------------------+
+|  Monday, 19-02-2024  |
++----------------------+
+
+
+    =   Write a program using HTML and Javascript to develop a simple calculator?
+        +----------------------------------+
+        |                                  |
+        +----------------------------------+
+        |  CE  |  AC  |  M   |  M+  |  /   |
+        |------+------+------+------+------|
+        |      |      |      |  %   |  *   |
+        |------+------+------+------+------|
+        |  7   |   8  |   9  |      |  -   |
+        |------+------+------+------+------|
+        |  4   |   5  |   6  |      |      |
+        |------+------+------+------|  +   |
+        |  1   |   2  |   3  |      |      |
+        |------+-------------+------+------|
+        |  .   |      0      |      =      |
+        +------+-------------+-------------+
+
+
++-----------------------+
+|  Tuesday, 20-02-2024  |
++-----------------------+
+    =   
