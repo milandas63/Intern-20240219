@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <script>
+            function add(number) {
+                var result = document.getElementById("result");
+                result.value = result.value + number;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <hr>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr>
+                <td colspan="5" align="right"><input type="text" id="result"></td>
+            </tr>
+            <tr>
+                <td align="center"><button>CE</button></td>
+                <td align="center"><button>AE</button></td>
+                <td align="center"><button>M</button></td>
+                <td align="center"><button>M+</button></td>
+                <td align="center"><button>/</button></td>
+            </tr>
+            <tr>
+                <td align="center"><button> </button></td>
+                <td align="center"><button> </button></td>
+                <td align="center"><button> </button></td>
+                <td align="center"><button>%</button></td>
+                <td align="center"><button>*</button></td>
+            </tr>
+            <tr>
+                <td align="center"><button onclick="add('7');">7</button></td>
+                <td align="center"><button>8</button></td>
+                <td align="center"><button>9</button></td>
+                <td align="center"><button> </button></td>
+                <td align="center"><button>-</button></td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">5</td>
+                <td align="center">6</td>
+                <td align="center"> </td>
+                <td align="center" rowspan="2">+</td>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">2</td>
+                <td align="center">3</td>
+                <td align="center"> </td>
+            </tr>
+            <tr>
+                <td align="center">.</td>
+                <td align="center" colspan="2">0</td>
+                <td align="center" colspan="2">=</td>
+            </tr>
+        </table>
+    </body>
+</html>
