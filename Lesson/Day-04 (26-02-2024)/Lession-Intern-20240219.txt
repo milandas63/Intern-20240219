@@ -1,0 +1,131 @@
+JFSD (Java Full-Stack Development)
+Start-date: 19-02-2024
+
+
+1. Jyoti Prakash Das        7853884916      dasjyotiprakash112@gmail.com    dasjyoti1           PJ
+2. Debasish Rath            8280575539      debasishrath2001@gmail.com      debasish548769      KIIT
+3. Debashis Mohapatra       9337675275      debashismohapatra39@gmail.com   debashis-45         KIIT
+4. Akasha Kumar Samal       8598066685      akashasamal123@gmail.com        akashasamal123      GIFT
+
++----------------------+
+|  Monday, 19-02-2024  |
++----------------------+
+
+
+    =   Write a program using HTML and Javascript to develop a simple calculator?
+        +----------------------------------+
+        |                                  |
+        +----------------------------------+
+        |  CE  |  AC  |  M   |  M+  |  /   |
+        |------+------+------+------+------|
+        |      |      |      |  %   |  *   |
+        |------+------+------+------+------|
+        |  7   |   8  |   9  |      |  -   |
+        |------+------+------+------+------|
+        |  4   |   5  |   6  |      |      |
+        |------+------+------+------|  +   |
+        |  1   |   2  |   3  |      |      |
+        |------+-------------+------+------|
+        |  .   |      0      |      =      |
+        +------+-------------+-------------+
+
+
++-----------------------+
+|  Tuesday, 20-02-2024  |
++-----------------------+
+    =   What is a Flowchart?
+        Representation of algorithm using diagrametic figures of a computer program.
+
+    =   Basically there are 4 different shapes of figures to represent 4 different work.
+
+    =   Draw a flowchart to print 10 numbers in the series: 5, 10, 15, 20, 25, .....
+    =   Draw a flowchart to cross a busy highway road?
+    =   Draw a flowchart to print all prime numbers between 1000 and 2000.
+
+    =   ASSIGNMENT:
+        1.  Draw a flowchart to check the validity of a voter. The law gives right to
+            the citizen who's age is greater than equals to 18 years and age is less
+            than equals to 80 years.
+        2.  Draw a flowchart to print a pyramid looking figure using asterisks.
+
++-------------------------+
+|  Wednesday, 21-02-2024  |
++-------------------------+
+    =   Eclipse is an open-source Java IDE
+
+
++----------------------+
+|  Monday, 26-02-2024  |
++----------------------+
+    =   HTML
+        >   HTML stands for Hyper Text Markup Langauge
+        >   HTML is a passive language. A language that is not intelligent. This
+            language is used for presentation purpose only
+        >   HTML is a language for the Internet Browser
+        >   The list of the popular internet browsers are:
+            a)  Netscape Navigator
+            b)  Internet Explorer
+            c)  Google Chrome
+            d)  FireFox
+            e)  Opera
+            f)  MS Internet Edge
+            g)  Safari
+        >   HTML language is created with the help of ELEMENTS. Elements are HTML reserve
+            words embedded with angle brackets, <>
+        >   There are 2 types of elements:
+            -   Terminator required elements
+                <html>...</html>, <head>...</head>, <body>...</body>, etc.
+            -   Self-terminated elements
+                <br>, <hr>, <img>, <area>, etc.
+        >   Each element further has a set of attributes. There are basically 3 categories
+            of attributes:
+            1)  Standard attribute:
+                Those attributes which are exclusively created for that element.
+            2)  Common attribute:
+                Those attributes that is applicable to all elements in HTML.
+                Example: ID, CLASS, STYLE, TITLE, LANG, DIR, etc.
+            3)  Event attribute:
+                These attributes work with responsive elements. They provide user response
+                on clicking the mouse or hitting the keyboard. Example of event attributes
+                are:
+                ONCLICK, when the mouse button is clicked on an element;
+                ONDBLCLICK, when the mouse button is double-clicked on an element;
+                ONMOUSEDOWN, when the mouse button is pressed over an element;
+                ONMOUSEUP, when the mouse button is released over an element;
+                ONMOUSEOVER, when the mouse is moved onto an element;
+                ONMOUSEMOVE, when the mouse is moved while over an element;
+                ONMOUSEOUT, when the mouse is moved away from an element;
+                ONKEYPRESS, when a key is pressed and released over an element;
+                ONKEYDOWN, when a key is pressed down over an element;
+                ONKEYUP, when a key is released over an element.
+        >   HTML has a principle element. All other elements are nested with the principal
+            element. Basically there are 2 sub-elements of the principal element:
+            <html>
+                <head>
+                </head>
+                <body>
+                </body>
+            </html>
+
+            <html>
+                <head>
+                </head>
+                <frameset>
+                </frameset>
+            </html>
+        >   The <head> element is used to control the header of the internet browser.
+        >   The <body> element is used to control the display of the body of the 
+            internet browser.
+        >   <frameset> is a terminator requried element. This element divides the body
+            of the internet browser row-wise or col-wise.
+
+            <html>
+                <head>
+                </head>
+                <frameset cols="25%,25%,25%,25%">
+                    <frame />
+                    <frame />
+                    <frame />
+                    <frame />
+                </framset>
+            </html>
