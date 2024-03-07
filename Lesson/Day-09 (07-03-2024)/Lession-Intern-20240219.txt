@@ -1,0 +1,610 @@
+JFSD (Java Full-Stack Development)
+Start-date: 19-02-2024
+
+1. Jyoti Prakash Das        7853884916      dasjyotiprakash112@gmail.com    dasjyoti1           PJ
+2. Debasish Rath            8280575539      debasishrath2001@gmail.com      debasish548769      KIIT
+3. Debashis Mohapatra       9337675275      debashismohapatra39@gmail.com   debashis-45         KIIT
+4. Akasha Kumar Samal       8598066685      akashasamal123@gmail.com        akashasamal123      GIFT
+5. Sunita Nayak             6372246563      nsunita857@gmail.com            sunita4             NIT
+6. Biswajit Samal           9861276102      biswajitsamal98612@gmail.com    Biswajitraja1234    GITAM
+
++----------------------+
+|  Monday, 19-02-2024  |
++----------------------+
+    =   Write a program using HTML and Javascript to develop a simple calculator?
+        +----------------------------------+
+        |                                  |
+        +----------------------------------+
+        |  CE  |  AC  |  M   |  M+  |  /   |
+        |------+------+------+------+------|
+        |      |      |      |  %   |  *   |
+        |------+------+------+------+------|
+        |  7   |   8  |   9  |      |  -   |
+        |------+------+------+------+------|
+        |  4   |   5  |   6  |      |      |
+        |------+------+------+------|  +   |
+        |  1   |   2  |   3  |      |      |
+        |------+-------------+------+------|
+        |  .   |      0      |      =      |
+        +------+-------------+-------------+
+
+
++-----------------------+
+|  Tuesday, 20-02-2024  |
++-----------------------+
+    =   What is a Flowchart?
+        Representation of algorithm using diagrametic figures of a computer program.
+
+    =   Basically there are 4 different shapes of figures to represent 4 different work.
+
+    =   Draw a flowchart to print 10 numbers in the series: 5, 10, 15, 20, 25, .....
+    =   Draw a flowchart to cross a busy highway road?
+    =   Draw a flowchart to print all prime numbers between 1000 and 2000.
+
+    =   ASSIGNMENT:
+        1.  Draw a flowchart to check the validity of a voter. The law gives right to
+            the citizen who's age is greater than equals to 18 years and age is less
+            than equals to 80 years.
+        2.  Draw a flowchart to print a pyramid looking figure using asterisks.
+
++-------------------------+
+|  Wednesday, 21-02-2024  |
++-------------------------+
+    =   Eclipse is an open-source Java IDE
+
+
++----------------------+
+|  Monday, 26-02-2024  |
++----------------------+
+    =   HTML
+        >   HTML stands for Hyper Text Markup Langauge
+        >   HTML is a passive language. A language that is not intelligent. This
+            language is used for presentation purpose only
+        >   HTML is a language for the Internet Browser
+        >   The list of the popular internet browsers are:
+            a)  Netscape Navigator
+            b)  Internet Explorer
+            c)  Google Chrome
+            d)  FireFox
+            e)  Opera
+            f)  MS Internet Edge
+            g)  Safari
+        >   HTML language is created with the help of ELEMENTS. Elements are HTML reserve
+            words embedded with angle brackets, <>
+        >   There are 2 types of elements:
+            -   Terminator required elements
+                <html>...</html>, <head>...</head>, <body>...</body>, etc.
+            -   Self-terminated elements
+                <br>, <hr>, <img>, <area>, etc.
+        >   Each element further has a set of attributes. There are basically 3 categories
+            of attributes:
+            1)  Standard attribute:
+                Those attributes which are exclusively created for that element.
+            2)  Common attribute:
+                Those attributes that is applicable to all elements in HTML.
+                Example: ID, CLASS, STYLE, TITLE, LANG, DIR, etc.
+            3)  Event attribute:
+                These attributes work with responsive elements. They provide user response
+                on clicking the mouse or hitting the keyboard. Example of event attributes
+                are:
+                ONCLICK, when the mouse button is clicked on an element;
+                ONDBLCLICK, when the mouse button is double-clicked on an element;
+                ONMOUSEDOWN, when the mouse button is pressed over an element;
+                ONMOUSEUP, when the mouse button is released over an element;
+                ONMOUSEOVER, when the mouse is moved onto an element;
+                ONMOUSEMOVE, when the mouse is moved while over an element;
+                ONMOUSEOUT, when the mouse is moved away from an element;
+                ONKEYPRESS, when a key is pressed and released over an element;
+                ONKEYDOWN, when a key is pressed down over an element;
+                ONKEYUP, when a key is released over an element.
+        >   HTML has a principle element. All other elements are nested with the principal
+            element. Basically there are 2 sub-elements of the principal element:
+            <html>
+                <head>
+                </head>
+                <body>
+                </body>
+            </html>
+
+            <html>
+                <head>
+                </head>
+                <frameset>
+                </frameset>
+            </html>
+        >   The <head> element is used to control the header of the internet browser.
+        >   The <body> element is used to control the display of the body of the 
+            internet browser.
+        >   <frameset> is a terminator requried element. This element divides the body
+            of the internet browser row-wise or col-wise.
+
+            <html>
+                <head>
+                </head>
+                <frameset cols="25%,25%,25%,25%">
+                    <frame />
+                    <frame />
+                    <frame />
+                    <frame />
+                </framset>
+            </html>
+
++-----------------------+
+|  Tuesday, 27-02-2024  |
++-----------------------+
+    =   Cyber Security by Air Commodore Niranjan Parhi
+
++-------------------------+
+|  Wednesday, 28-02-2024  |
++-------------------------+
+    =   Cyber Security class
+
+
++------------------------+
+|  Thursday, 29-02-2024  |
++------------------------+
+    =   Java GUI Program are written using classes given in javax.swing package
+
+    =   Hierarchy of Java source code:
+    =   +- package-1
+        |  +- class-101
+        |  +- class-102
+        |  +- class-103
+        +- package-2
+        |  +- class-201
+        |  +- class-302
+        |  +- class-403
+        +- package-2
+        |  +- class-201
+        |  +- class-302
+        |  +- class-403
+        +- com.cal.gui
+        |  +- Start.java
+        
+    =   LayoutManager:
+        By default a frame body area is set to a LayoutManager. There are 5 LayoutManagers
+        provided in Java. You can also create n numbers of LayoutManagers.
+
+        1.  FlowLayout
+        2.  BorderLayout
+        3.  GridLayout
+        4.  CardLayout
+        5.  GridBagLayout
+
+    =   What is FlowLayout?
+        +-------------------------------------------------+
+        |                      NORTH                      |
+        +-----------+-------------------------+-----------+
+        |           |                         |           |
+        |     W     |                         |     E     |
+        |     E     |                         |     A     |
+        |     S     |         CENTER          |     S     |
+        |     T     |                         |     T     |
+        |           |                         |           |
+        |           |                         |           |
+        |           |                         |           |
+        +-----------+-------------------------+-----------+
+        |                      SOUTH                      |
+        +-------------------------------------------------+
+
+
++----------------------+
+|  Friday, 01-03-2024  |
++----------------------+
+    =   What is Java?
+        >   The programming language is built in the year 1996.
+        >   Java programming language is created by James Gosling at Sun Microsystem
+    
+    =   Architecture of C++
+        +---------------+           +-----------+            +---------------+
+        |  C, C++       |           |           |            |  Executable   |
+        |  Source       +---------->|  Compiler +----------->|  code         |
+        |  File         |           |           |            |               |
+        +---------------+           +-----------+            +---------------+
+            .cpp                       cpp.exe                     .exe
+
+    =   Architecture of Java
+        +---------------+           +-----------+            +---------------+
+        |  Java         |           |           |            |  Bytecode     |
+        |  Source       +---------->|  Compiler +----------->|  Language     |
+        |  File         |           |           |            |  File         |
+        +---------------+           +-----------+            +---------------+
+            .java                     javac.exe                 .class
+
+        +---------------+           +-----------+
+        |  Bytecode     |           |           |
+        |  Language     +---------->|  Runtime  |
+        |  File         |           |           |
+        +---------------+           +-----------+
+           .class                      java.exe
+                                      On-the-fly
+                                     Just-in-time
+
+    =   A Java programming file must have an extension name as .java
+    =   Java programms are written within a class.  A class is a wrapper of the 
+        Java code. A class is created with the help of class reserve word.
+
+    =   Java version 1.8 language contains 53 reserve words/keywords.
+    =   LIST OF RESERVE WORDS/KEY WORDS IN JAVA (53 words)
+            abstract    continue    for         new         switch
+            assert***   default     goto*       package     synchronized
+            boolean     do          if          private     this
+            break       double      implements  protected   throw
+            byte        else        import      public      throws
+            case        enum****    instanceof  return      transient
+            catch       extends     int         short       try
+            char        final       interface   static      void
+            class       finally     long        strictfp**  volatile
+            const*      float       native      super       while
+            null        true        false
+
+            *       not used
+            **      added in 1.2
+            ***     added in 1.4
+            ****    added in 5.0
+
+    =   What is a data-type?
+        Data-types are container types where some kind of data is kept.
+            i = 10;
+        Java is a highly typed language. The type of the contains must be defined
+        before the content is assigned.
+            int i = 10;
+
++----------------------+
+|  Monday, 04-03-2024  |
++----------------------+
+    =   Java contains 2 sets of data-types:
+        There are 8 primitive data-types in Java
+        >   Primitive data type     Wrapper-classes         Data-Range
+            -   byte                java.lang.Byte          -128 to +127
+            -   short               java.lang.Short         -32768 to 32767
+            -   int*                java.lang.Integer       -2147483648 to 2147483647
+            -   long                java.lang.Long          -9223372036854775808 to 9223372036854775807
+            -   float               java.lang.Float
+            -   double*             java.lang.Double
+            -   boolean             java.lang.Boolean
+            -   char                java.lang.Character
+        >   Object data types
+            >   In an object, the data is wrapped in an envelop that is known as a class
+                envelop.
+            >   A class contains basically 3 types of members:
+                1.  Field/Variable member
+                2.  Constructor member
+                3.  Method/Function member
+            >   The syntax/grammer for creating a class is as follows:
+                >   There is a reserve word named "class" which is used to create a class.
+                >   Syntax:
+                    [access-modifier]
+                    [modifier]
+                    class <class-name>
+                    [extends <parent-class>]
+                    [implements <interface-list....]
+                    {}
+                >   Exaple:
+                    class Number {}
+                    public class Example {}
+                    public abstract class NewWork implements Runnable {}
+                    public abstract class extends Thread implements Solace {}
+
+    =   Nomenclatures used to understand the syntax of a statement.
+        >   []      square brackets         optional entry
+            <>      angle brackets          user defined identifier
+            {}      curly brackets          body or choice list
+            |       pipe                    choice separator (or)
+                    {"F" | "M"}
+
+    =   A class may be used by another class in two ways:
+        1.  By inheritance using the extends reserve word
+            public class MyClass extends YourClass {}
+        2.  By creating an object of the class by using the new operator
+            public class MyClass {
+                public static void main(String[] args) {
+                    YourClass yc = new YourClass();
+                    yc.callMethods();
+                }
+            }
+
+    =   What is an access-modifier?
+        An access-modifier is a reserve word. There are 3 reserve words used to 
+        explain the accessibility of the class. The following reserve words are used:
+        1.  public
+            >   A public class may be accessed from the same package or from another package.
+            >   When a class is public the same class may be accessed by object reference
+                or inheritance.
+        2.  protected
+            >   A protected class is only accessible by another class in the same package by
+                both, object reference and inheritance
+            >   From different packages, only inheritance is allowed. The object reference 
+                is restricted.
+        3.  private
+            >   Not accessible by other classes.
+        4.  -undefined-
+            >   An -undefined- class is only accessible by another class in the same 
+                package by both, object reference and inheritance
+            >   From different packages, only object reference is allowed. Inheritance
+                is restricted.
+
+    =   Reserve words discussed?
+        byte, short, int, long, char, boolean, class, public, protected, private, ...
+
+    =   The structure of a class is as follows:
+        public class Sample {
+            // Field members
+            private int age;
+            private String name;
+
+            //  Constructor members
+            public Sample() {
+                age = 68;
+                name = "Narendra Modi";
+            }
+            public Sample(int age, String name) {
+                this.age = age;
+                this.name = name;
+            }
+
+            //  Method members
+            public int getAge() {
+                return age;
+            }
+            public void setAge(int age) {
+                this.age = age;
+            }
+
+            public String getName() {
+                return name;
+            }
+            public void setName(String name) {
+                this.name = name;
+            }
+        }
+
++-------------------------+
+|  Wednesday, 06-03-2024  |
++-------------------------+
+    =   What is a field in Java?
+        The field is a member of a class. A fields are data variables. Comparing a 
+        field with other programming languages, field is similar to global variables.
+
+    =   What is a constructor in Java?
+        The constructor is a member of a class. This member's name must resemble with
+        the class name. If the class name is Work, the constructor name must be Work.
+        A function name may optionally resemble with the class name. The difference
+        between a constructor and method is, a constructor doesn't have return type,
+        but a method must have a return type.
+
+        Constructors are used to tranform a class to an object. The "new" operator 
+        transforms a class into an object. Example:
+            Sample s1 = new Sample();
+            Sample s2 = new Sample(50);                 // Wrong
+            Sample s3 = new Sample(50, "Gurudev");
+            Sample s4 = new Sample("Gurudev", 50);      // Wrong
+
+    =   INSTATIATION
+        primary (object always resides in primary)
+
+              a   b   c    q    t   x       y
+               \  |  /      \   |    \     /
+        --------\-|-/--------\--|-----\---/------------ new
+                 \|/          \ |      \ /
+               String          \|       B
+                                A                 D
+
+        secondary (a class always resides in secondary)
+
+            A q = new A();
+
+    =   What is a method in Java?
+        The method contains one or more statements with it. It can be called from
+        any where within the program. You can also call a method from within the
+        same method. This is called recurrsion of methods. 
+
+
+    =   The syntax/grammer for creating a Field:
+            [access-modifier]
+            [modifier]
+            {data-type} <variable-name>
+            [= value];
+
+        Example:
+            int i;
+            private static String name;
+            private static String pmname = "Narendra Modi";
+
+    =   The syntax/grammer for creating a Constructor:
+            [access-modifier]
+            [modifier]
+            <class-name>([parameter-list])
+            [throws <exception-list>]
+            {}
+
+        Example:
+            public Sample() {}
+            public Sample(boolean yn, String name) throws SQLException, NullPointerException {}
+
+    =   The syntax/grammer of a method:
+            [access-modifier]
+            [modifier]
+            {return-type|void} methodName([parameter-list])
+            [throws <exception-list>]
+            {}
+
+        Example:
+            public static void main(String[] args) {}
+            public void main() {}
+            int calculate(10,30) {}
+
+
++------------------------+
+|  Thursday, 07-03-2024  |
++------------------------+
+    =   What is paradigm of programming languages?
+        A programming paradigm is the classification, style or way of programming.
+        It is an approach to solve problems by using programming languages. Depending
+        on the language, the difficulty of using a paradigm differs.
+
+    =   Different types of paradigms used in programming languages:
+        https://www.geeksforgeeks.org/introduction-of-programming-paradigms/
+
+    =   What are the features of OOPs (Object Oriented Programming) paradigm?
+        There are 3 features in OOPs:
+        1.  Encapsulation
+                Abstraction
+        2.  Inheritance
+        3.  Polymorphism
+            i.  Overloading
+           ii.  Overriding
+
+    =   What is Encapsulation?
+        When a program is written within one unit that is called a class. When the data
+        members and the program code are wrapped within one unit it is known as 
+        encapsulation.
+        Another part of encapsulation is abstraction. Abstraction is a technique to
+        hide the data from other programs.
+
+        public class Planet {
+            //  Data members (fields)
+            private String name;
+            private double diameter;
+            private double area;
+
+            //  Constructors
+            public Planet() {
+            }
+
+            public Planet(String name, double diameter, double area) {
+                this.name = name;
+                this.diameter = diameter;
+                this.area = area;
+            }
+
+            // Methods/ Functions
+            public String getName() {
+                return name;
+            }
+            public void setName(String name) {
+                this.name = name;
+            }
+            public double getDiameter() {
+                return diameter;
+            }
+            public void setDiameter(double diameter) {
+                this.diameter = diameter;
+            }
+            public double getArea() {
+                return area;
+            }
+            public void setArea(double area) {
+                this.area = area;
+            }
+        }
+
+    =   Inheritance
+        Like real-life, inheritance owns the property of the parent class. There are
+        two types of inheritance, single and multiple.
+
+        SINGLE INHERITANCE:
+            Great-great-grandfather
+            +- Great grandfather
+            |  +- Grandfather
+            |  |  +- Father
+            |  |  |  +- Me
+
+        MULTIPLE INHERITANCE:
+         Grandfather     GrandUnle   Grandfather    GrandAunty
+            |               |           |               |
+            +---------------+           +---------------+
+                  Father                      Uncle
+                     |                          |
+                     +--------------------------+
+                                   Me
+        
+        JAVA DOESN'T SUPPORT MULTIPLE INHERITANCE.
+        One class can inherit another one class only.
+        To inherit another class, the keyword extends is used.
+        Example:
+            class Planet extends Sun {}
+            class Planet extends Stars, Sun {}      // Not allowed
+
+    >   The object of the parent class may be assigned by instancating the child class.
+
+            A
+            +- B
+            |  +- C
+            |  |  +- D
+
+                A a = new B();
+                A a = new D();
+
+    =   What is Overloading?
+        Overloading is a concept to create more than one entities (constructor, method)
+        having same name within the same class. There may be two or more constructors 
+        in a class. There may be two or more methods having same name within a class. 
+        The condition for overloading is to make the signature of the entities different, 
+        i.e. the parameter list of the constructor or method must be different
+
+       	public String padC(String data, int howMuch) {
+    		return stretch(data, howMuch, 'C', ' ');
+	    }
+	    public String padC(String data, int howMuch, char whichChar) {
+		    return stretch(data, howMuch, 'C', whichChar);
+	    }
+
+    =   Overriding of methods:
+
+            Sun
+            |- getDistance(double source) {}
+            +- Earth
+               |- getDistance(double source) {}
+               |- getDistance(long source) {}
+               +- Asia
+                  |- getDistance(long source) {}
+            +- Jupiter
+               |- getDistance(long source) {}
+
+    =   When the parent class and the child class have methods having same name and
+        same parameter list, it is known as overriding.
+
+    =   Integer i = new Integer(10);
+        Integer j = 256;
+        String x = "Ariyan";
+        String y = new String("India");
+        String name = new String(new byte[] {65,66,67,68,69,70,97,98,99,100});
+
+    =   When a String object is created with the help of the String constructor,
+        the string value is assigned to a StringPool object. The index of the
+        StringPool is assigned to the String variable.
+
+        String a = new String("Narendra Modi");
+        String b = new String("Narendra Modi");
+        String c = new String("Narendra Modi");
+        String d = new String("Narendra Modi");
+        String e = new String("Narendra Modi");
+        String f = new String("Narendra Modi");
+
+        STRINGPOOL
+        +--------------------------+
+      0 | Narendra Modi            |            a = StringPool[0]
+        +--------------------------+
+      1 |                          |            b = StringPool[0]
+        +--------------------------+
+      2 |                          |            c = StringPool[0]
+        +--------------------------+
+      3 |                          |            d = StringPool[0]
+        +--------------------------+
+      4 |                          |
+        +--------------------------+
+      5 |                          |
+        +--------------------------+
+        |                          |
+        +--------------------------+
+        |                          |
+
+    =   Write the following programs:
+        Q1: Flip/Invert/Toggle the case of all characters in a given String?
+            Original:   Quick Brown Fox Jumps Over The Lazy Dog
+            Invert:     qUICK bROWN fOX jUMPS oVER tHE lAZY dOG
+
+        Q2: Count the number of vowels in a given string?
+
+
