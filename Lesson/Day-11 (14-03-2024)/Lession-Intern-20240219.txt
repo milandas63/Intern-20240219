@@ -810,7 +810,59 @@ Start-date: 19-02-2024
             |  |  +- RefreshFailedException
             |  |  +- RemarshalException
             |  |  +- RuntimeException
-            |  |  |  +- 
+            |  |  |  +- AnnotationTypeMismatchException
+            |  |  |  +- ArithmeticException
+            |  |  |  +- ArrayStoreException
+            |  |  |  +- BufferOverflowException
+            |  |  |  +- BufferUnderflowException
+            |  |  |  +- CannotRedoException
+            |  |  |  +- CannotUndoException
+            |  |  |  +- ClassCastException
+            |  |  |  +- CMMException
+            |  |  |  +- CompletionException
+            |  |  |  +- ConcurrentModificationException
+            |  |  |  +- DataBindingException
+            |  |  |  +- DateTimeException
+            |  |  |  +- DOMException
+            |  |  |  +- EmptyStackException
+            |  |  |  +- EnumConstantNotPresentException
+            |  |  |  +- EventException
+            |  |  |  +- FileSystemAlreadyExistsException
+            |  |  |  +- FileSystemNotFoundException
+            |  |  |  +- IllegalArgumentExceptio
+            |  |  |  +- IllegalMonitorStateException
+            |  |  |  +- IllegalPathStateException
+            |  |  |  +- IllegalStateException
+            |  |  |  +- IllformedLocaleException
+            |  |  |  +- ImagingOpException
+            |  |  |  +- IncompleteAnnotationException
+            |  |  |  +- IndexOutOfBoundsException
+            |  |  |  +- JMRuntimeExceptio
+            |  |  |  +- LSException
+            |  |  |  +- MalformedParameterizedTypeException
+            |  |  |  +- MalformedParametersException
+            |  |  |  +- MirroredTypesException
+            |  |  |  +- MissingResourceException
+            |  |  |  +- NegativeArraySizeException
+            |  |  |  +- NoSuchElementException
+            |  |  |  +- NoSuchMechanismException
+            |  |  |  +- NullPointerException
+            |  |  |  +- ProfileDataException
+            |  |  |  +- ProviderException
+            |  |  |  +- ProviderNotFoundException
+            |  |  |  +- RasterFormatException
+            |  |  |  +- RejectedExecutionException
+            |  |  |  +- SecurityException
+            |  |  |  +- SystemException
+            |  |  |  +- TypeConstraintException
+            |  |  |  +- TypeNotPresentException
+            |  |  |  +- UncheckedIOException
+            |  |  |  +- UndeclaredThrowableException
+            |  |  |  +- UnknownEntityException
+            |  |  |  +- UnmodifiableSetException
+            |  |  |  +- UnsupportedOperationException
+            |  |  |  +- WebServiceException
+            |  |  |  +- WrongMethodTypeException
             |  |  +- SAXException
             |  |  +- ScriptException
             |  |  +- ServerNotActiveException
