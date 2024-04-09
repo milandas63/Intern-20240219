@@ -1160,3 +1160,13 @@ Start-date: 19-02-2024
 +------------------------+
     =   Image
         1.  Images may be displayed in the background of the body.
+        2.  Images may be wrapped within <table>
+        3.  Images may be clickable
+        4.  Single image may be mapped to navigate to different pages
+
+    =   ASSIGNMENT-1
+        Complete the "Nehru-family" image mapped to Wikipedia pages
+
+    =   ASSIGNMENT-2
+        Link the figures to different pages in "figures.jpg"
+
