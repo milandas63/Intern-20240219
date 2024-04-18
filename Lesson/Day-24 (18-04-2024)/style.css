@@ -1,0 +1,12 @@
+th {
+    text-align: center;
+    color: darkgrey;
+    background-color: bisque;
+    padding: 5px;
+    border: 1px solid;
+}
+td {
+    text-align: center;
+    padding: 2px;
+    border: 2px solid;
+}
