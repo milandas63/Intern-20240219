@@ -1226,3 +1226,17 @@ Start-date: 19-02-2024
             within the HEAD elment.
                     <link rel="stylesheet" href="style.css">
 
+    =   CLASS in CSS
+        A set of property name:value; is provided with curly braces tagged with
+        an element name. The property group may be tagged with a user-defined
+        class name.
+            h1.first {
+                color:blue;
+                background-color:lightgreen;
+                font-family:sans-serif;
+                text-align:right;
+            }
+            h1.second {
+                color: yellowgreen;
+                font-size:34px;
+            }
