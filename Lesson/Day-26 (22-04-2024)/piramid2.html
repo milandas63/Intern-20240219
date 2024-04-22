@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Palindrome Piramid</title>
+    </head>
+    <body>
+        <script>
+            var spaces = 40;
+
+            document.write("<tt>");
+            for(var i=1; i<=9; i++) {
+                for(var j=1; j<=spaces; j++) document.write("&nbsp;");
+                for(var j=1; j<=i; j++)  document.write(j);
+                for(var j=i-1; j>=1; j--) document.write(j);
+                document.write("<br>");
+                spaces--;
+            }
+            document.write("</tt>");
+
+        </script>
+    </body>
+</html>
