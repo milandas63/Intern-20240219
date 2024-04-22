@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Piramid</title>
+    </head>
+    <body>
+        <script>
+            var start = 2000;
+            var end = 5000;
+            var yn = true;
+            var count = 0;
+
+            document.write("<body>");
+            document.write("<table border='1' cellpadding='7'>");
+            document.write("<tr>");
+            for(var i=start; i<=end; i++) {
+                yn = true;
+                for(var j=2; j<i; j++) {
+                    if( (i%j)==0) {
+                        yn = false;
+                        break;
+                    }
+                }
+                if(yn) {
+                    document.write("<td align='right'>"+i+"</td>");
+                    count++;
+                    if(count>15) {
+                        count = 0;
+                        document.writeln("</tr>");
+                        document.writeln("<tr>");
+                    }
+                }
+            }
+            document.write("</tr>");
+            document.write("</table>");
+            document.write("</body>");
+        </script>
+    </body>
+</html>
