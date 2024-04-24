@@ -1,0 +1,49 @@
+<!--
+Count the number of occurrences of each alphabet in a given string?
+
+    Hello World    Students Allowed       Holocaust
+       D = 1           A - 1                A - 1
+       E - 1           D - 2                C - 1
+       H - 1           E - 2                H - 1
+       L - 3           L - 1                L - 1
+       O - 2           N - 1                O - 2
+       R - 1           O - 1                S - 1
+       W - 1           S - 2                T - 1
+                       T - 2                U - 1
+                       U - 1
+                       W - 1
+-->
+
+<html>
+    <head>
+        <title>Occurances of Alphabets in a Sentence</title>
+        <script>
+            function count() {
+                var text = document.getElementById("text").value;
+                var alphaCount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+                var each;
+                for(var i=0; i<text.length; i++) {
+                    each = text.charCodeAt(i);
+                    if(each>=65 && each<=90) {
+                        alphaCount[each-65]++;
+                    } else if(each>=97 && each<=122) {
+                        alphaCount[each-97]++;
+                    }
+                }
+
+                for(var i=0; i<alphaCount.length; i++) {
+                    if(alphaCount[i]>0) {
+                        document.writeln(String.fromCharCode(i+65) + " = " + alphaCount[i] + "<br>");
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+       <h1>Occurances of Alphabets</h1>
+       <br><hr><br>
+       <label>Enter a line of text:</label><br>
+       <input type="text" size="70" id="text"><br><br><br>
+       <input type="button" onclick="count();" value=" Count ">
+    </body>
+</html>
